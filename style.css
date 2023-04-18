@@ -1,0 +1,398 @@
+body{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-size: 1em;
+    text-align: center;
+    color: grey;
+}
+
+h2,h1,p,h3,h4,h5{
+    margin: 0   ;
+    margin-bottom: 0.5em;
+}
+
+.footer__list a{
+    color: rgb(89, 89, 89);
+}
+
+.heading--primary{
+    font-weight: 400;
+    color: black;
+}
+
+.heading--secondary{
+    font-size: large;
+    font-size: 1.2em;
+    color: black;
+}
+
+main{
+    position: static;
+    background: linear-gradient(to bottom,rgba(255, 255, 255, 0) 0%, rgba(255,255,255)100%), url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10em;
+}
+
+.main__image{
+    margin-top: 10em;
+}
+
+.main__heading{
+    color: black;
+}
+
+.wrapper{
+    margin:0 auto;
+    max-width: 304px;
+}
+
+.wrapper-small{
+    margin: 0 auto;
+    max-width: 819px;
+    margin-bottom: 2em;
+}
+
+.main__container{
+        margin:0 2em;
+}
+
+.features__card{
+    margin-bottom: 2em;
+}
+
+.services__list{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    gap:2em;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.button{
+    padding-top: .3em;
+    font-size: medium;
+    width: 80vw;
+    height: 13vw;
+    border:none;
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.3);
+    border-radius: 25px;
+}
+
+.button--primary{
+    background-color: #07b18f;
+    
+    color: white;
+}
+
+.button--secondary{
+    background-color: #2e57df;
+    color: white;
+}
+
+.snippets{
+    margin-bottom: 3em;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.services__image{
+    width: 80%;
+    margin-bottom: 3em;
+}
+
+.track{
+    margin-bottom: 10em;
+}
+
+.access{
+    margin-bottom: 8em;
+}
+
+.access__image{
+    width: 70%;
+}
+
+.supercharge{
+    margin-bottom: 6em;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+    margin-bottom: 5em;
+}
+
+.companies{
+    display: flex;
+}
+
+.workflow{
+    margin-bottom: 10em;
+}
+
+.companies--alignment{
+    flex-direction: column;
+    align-items: center;
+    gap: 5em;
+}
+
+.clipboard{
+    margin-bottom: 10em;
+}
+
+footer{
+    background-color: rgba(208, 208, 208, 0.856);
+}
+
+.footer__container{
+    padding: 2em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.footer__image{
+    width: 4rem;
+}
+
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    gap: 3em;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer__details{
+    display: flex;
+    flex-direction: column;
+    gap:1.5em;
+}
+
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    gap:1.5em;
+}
+
+.footer__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 760px){
+
+    .wrapper{
+        all: unset;
+    }
+
+    body{
+        all:unset;
+        padding:0;
+        margin: 0;
+        font-size: 1em;
+        text-align: center;
+        color: grey;
+    }
+
+    .main__description{
+        max-width: 819px;
+    }
+
+    .btns{
+        all: unset;
+        display: flex;
+        justify-content: center;
+        gap:1em;
+        margin-top: 1em;
+    }
+
+    .snippets{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading--primary{
+        font-size: 1.8em;
+    }
+
+    .heading--secondary{
+        font-size: 1.2em;
+        font-weight: 200;
+    }
+
+    body{
+        font-size: 1.5em;
+        box-sizing: border-box;
+    }
+
+    .button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15vw;
+        font-size: 18px;
+        height: 8vh;
+        border:none;
+        border-radius: 45px;
+        gap: 2em;
+        
+    }
+
+
+    .services{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 2em;
+        text-align: left;
+    }
+
+    .services p{
+        display: flex;
+        gap: 0em;
+        text-align: left;
+    }
+
+    .services__image{
+        width: 50%;
+        transform: translate(-10%);
+        height: auto;
+    }
+
+    .services__description{
+        all: unset;
+        width: 70%;
+    }
+
+    .features{
+        display: grid;
+        text-align: center;
+        grid-template-columns: auto auto auto;
+    }
+
+    .feature__image{
+        margin-bottom: 2em;
+        height: 15%;
+    }
+
+    .services{
+        margin-bottom: 4em;
+    }
+
+    .snippets-section{
+        margin-top: 4em;
+        margin-bottom: 3em;
+    }
+
+    .companies{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 4em;
+    }
+
+    .clipboard__description{
+        margin-bottom: 3em;
+    }
+
+    .footer__details{
+        all:unset;
+        display: flex;
+        grid-column: 3;
+        gap: 6vw;
+        width: 35em;
+    }
+
+    .footer__list{
+        box-sizing: border-box;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        gap:3em;
+        grid-template-columns: auto;
+    }
+
+    .footer__image{
+        width: 3em;
+        height: 3em;
+    }
+
+    footer{
+        padding: 2em;
+    }
+
+    .footer__container{
+        all: unset;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer__wrapper{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        gap: 9vw;
+    }
+
+    .footer__logo{
+        align-items: baseline;
+        grid-column: 4 /span1;
+    }
+
+    .button--primary:hover{
+        background-color: #53c4a6;
+    }
+
+    .button--secondary:hover{
+        background-color: #5f7feb;
+    }
+
+    .footer__list a:hover{
+        color: #1ec095;
+    }
+
+    .facebook:hover path{
+        fill:blue;
+    }
+
+    .twitter:hover path{
+        fill:rgb(39, 177, 251);
+    }
+
+    .instagram:hover path{
+        fill:rgb(218, 82, 104);
+    }
+
+}
